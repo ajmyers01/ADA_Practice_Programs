@@ -1,5 +1,12 @@
--- This program will take input of of 3 values and find both the sum and the product of each value.
--- The original values will be output along with the answers
+-- *************************************************** 
+-- * 																	 	 						 *
+-- * Alex Myers																			 *
+-- * CS3800                           							 *
+-- * Data Structures & Algorithms     							 *
+-- * Due 8/28/2012                    							 *
+-- * This Program is a basic hello world program   	 *
+-- *																							   *
+-- ***************************************************
 with Ada.Text_IO; use Ada.Text_IO;
 procedure Hello_World is
 begin 
