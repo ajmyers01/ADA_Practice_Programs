@@ -1,0 +1,67 @@
+V "GNAT Lib v4.6"
+M P W=b
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U floating_ratios%b	floating_ratios.adb	2f1ad9aa NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-flteio.ads		20070406091342 e18a47a0
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-tiflio.ads		20090409150019 56fbda09
+D a-unccon.ads		20070406091342 f9eb8f06
+D floating_ratios.adb	20120828003851 f6fd6bde
+D interfac.ads		20090409150019 f77d8799
+D i-cstrea.ads		20100622165701 1bd72c32
+D system.ads		20120503162406 2d1a1afa
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 12|8r6 8r19 9r5 9r18
+X 5 a-flteio.ads
+20K13*Float_Text_IO[10|45] 12|8w23 9r22
+X 9 a-textio.ads
+49K13*Text_IO 472e16 12|8w10 9r9
+74I12*Field{integer}
+167U14*New_Line 12|18s17
+243U14*Put 12|19s17 21s17 26s5 28s17
+264U14*Put_Line 12|17s17
+X 10 a-tiflio.ads
+56U14*Get 12|20s17[5|20] 22s17[5|20]
+67U14*Put 12|25s17[5|20] 27s17[5|20] 29s11[5|20]
+68f7 Item{float} 12|25r21[5|20] 27r21[5|20] 29r15[5|20]
+70i7 Aft{9|74I12} 12|25r46[5|20] 27r46[5|20] 29r40[5|20]
+71i7 Exp{9|74I12} 12|25r36[5|20] 27r36[5|20] 29r30[5|20]
+X 12 floating_ratios.adb
+10U11*Floating_Ratios 10b11 30l5 30t20
+11U19 Find_Ratio 11b19 11>31 11>38 11<53 13l13 13t23 24s17
+11f31 Num_1{float} 12r26
+11f38 Num_2{float} 12r34
+11f53 ratio{float} 12m17
+14f17 Num_1{float} 20m22 24r29 25r29
+14f24 Num_2{float} 22m22 24r36 27r29
+15f17 Ratio{float} 24m43 29r23
+
