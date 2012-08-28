@@ -1,0 +1,74 @@
+V "GNAT Lib v4.6"
+M P W=b
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U fibonacci%b		fibonacci.adb		f719941f NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.long_long_integer_text_io%s  a-llitio.ads	a-llitio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_lli%s	s-imglli.adb		s-imglli.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-llitio.ads		20070406091342 9aecf52b
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D fibonacci.adb		20120828005425 a3d31d44
+D interfac.ads		20090409150019 f77d8799
+D i-cstrea.ads		20100622165701 1bd72c32
+D system.ads		20120503162406 2d1a1afa
+D s-conca2.ads		20090420091404 fbd0f2fc
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-imglli.ads		20090409150019 114f55d1
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 13|2r6 2r19 2r40 3r6 3r19 3r40
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[11|45] 13|2w23 3r23
+X 7 a-llitio.ads
+18K13*Long_Long_Integer_Text_IO[11|45] 13|2w44 3r44
+X 10 a-textio.ads
+49K13*Text_IO 472e16 13|2w10 3r10
+243U14*Put 13|39s17
+264U14*Put_Line 13|41s5 42s5 43s5
+X 11 a-tiinio.ads
+55U14*Get 13|40s17[7|18]
+X 13 fibonacci.adb
+4U11*Fibonacci 4b11 44l5 44t14
+6V18 Find_Fib{long_long_integer} 6b18 6>27 11s32 11s52 13l13 13t21 43s60
+6i27 Num_1{long_long_integer} 8r20 11r41 11r61
+15V18 Find_Nth{long_long_integer} 15b18 15>28 25l13 25t21 41s54
+15i28 Num_1{long_long_integer} 19r33
+16i17 Result{long_long_integer} 20m25 20r35 24r24
+17i17 Counter{long_long_integer} 19r23 21m25 21r36
+27V18 Find_Factorial{long_long_integer} 27b18 27>34 35l13 35t27 42s54
+27i34 Num_1{long_long_integer} 28r57 29r81
+28i17 Factorial_result{long_long_integer} 32m25 32r45 34r24
+29i17 Counter{long_long_integer} 31r37
+31i21 I{long_long_integer} 32r64
+37i17 Num_1{long_long_integer} 40m22 41r63 42r69 43r69
+
