@@ -1,4 +1,14 @@
--- This program will read in a number and find that nth fibonacci number, 2 to the nth, and n!
+-- *************************************************** 
+-- *                                                 *
+-- * Alex Myers                                      *
+-- * Data Structures & Algorithms                    *
+-- * Due 8/28/2012                                   *
+-- * This Program is a basic hello world program     *
+-- *                                                 *
+-- * This program will read in a number and find     *
+-- *  that nth fibonacci number, 2 to the nth, and n!*																		*
+-- *																								 *
+-- ***************************************************
 with Ada.Text_IO, Ada.Integer_Text_IO, Ada.Long_Long_Integer_Text_IO; 
 use  Ada.Text_IO, Ada.Integer_Text_IO, Ada.Long_Long_Integer_Text_IO;
 procedure Advanced_Arithmetic is

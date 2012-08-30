@@ -23,7 +23,7 @@ D a-tags.ads		20101021101406 c7695348
 D a-textio.ads		20091028140912 386df5d4
 D a-tiinio.ads		20090409150019 aa04e5d6
 D a-unccon.ads		20070406091342 f9eb8f06
-D advanced_arithmetic.adb  20120830141143 ab752d85
+D advanced_arithmetic.adb  20120830142506 ab752d85
 D interfac.ads		20090409150019 f77d8799
 D i-cstrea.ads		20100622165701 1bd72c32
 D system.ads		20120503162406 2d1a1afa
@@ -46,30 +46,30 @@ D s-traent.ads		20090417130712 5221ee41
 D s-unstyp.ads		20090409150019 6ae15c76
 D s-wchcon.ads		20090417130712 bfeb2e3d
 X 1 ada.ads
-16K9*Ada 19e8 13|2r6 2r19 2r40 3r6 3r19 3r40
+16K9*Ada 19e8 13|12r6 12r19 12r40 13r6 13r19 13r40
 X 5 a-inteio.ads
-18K13*Integer_Text_IO[11|45] 13|2w23 3r23
+18K13*Integer_Text_IO[11|45] 13|12w23 13r23
 X 7 a-llitio.ads
-18K13*Long_Long_Integer_Text_IO[11|45] 13|2w44 3r44
+18K13*Long_Long_Integer_Text_IO[11|45] 13|12w44 13r44
 X 10 a-textio.ads
-49K13*Text_IO 472e16 13|2w10 3r10
-243U14*Put 13|40s17
-264U14*Put_Line 13|43s5 44s5 45s5
+49K13*Text_IO 472e16 13|12w10 13r10
+243U14*Put 13|50s17
+264U14*Put_Line 13|53s5 54s5 55s5
 X 11 a-tiinio.ads
-55U14*Get 13|41s17[5|18]
+55U14*Get 13|51s17[5|18]
 X 13 advanced_arithmetic.adb
-4U11*Advanced_Arithmetic 4b11 46l5 46t24
-6V18 Find_Fib{long_long_integer} 6b18 6>27 11s32 11s52 13l13 13t21 45s60
-6i27 Num_2{long_long_integer} 8r20 11r41 11r61
-15V18 Find_Nth{long_long_integer} 15b18 15>28 25l13 25t21 43s54
-15i28 Num_1{integer} 19r33
-16i17 Result{long_long_integer} 20m25 20r36 24r24
-17i17 Counter{integer} 19r23 21m25 21r36
-27V18 Find_Factorial{long_long_integer} 27b18 27>34 35l13 35t27 44s54
-27i34 Num_2{long_long_integer} 28r57 29r81
-28i17 Factorial_result{long_long_integer} 32m25 32r45 34r24
-29i17 Counter{long_long_integer} 31r37
-31i21 I{long_long_integer} 32r64
-37i17 Num_1{integer} 41m22 42r44 43r63
-38i17 Num_2{long_long_integer} 42m17 44r69 45r69
+14U11*Advanced_Arithmetic 14b11 56l5 56t24
+16V18 Find_Fib{long_long_integer} 16b18 16>27 21s32 21s52 23l13 23t21 55s60
+16i27 Num_2{long_long_integer} 18r20 21r41 21r61
+25V18 Find_Nth{long_long_integer} 25b18 25>28 35l13 35t21 53s54
+25i28 Num_1{integer} 29r33
+26i17 Result{long_long_integer} 30m25 30r36 34r24
+27i17 Counter{integer} 29r23 31m25 31r36
+37V18 Find_Factorial{long_long_integer} 37b18 37>34 45l13 45t27 54s54
+37i34 Num_2{long_long_integer} 38r57 39r81
+38i17 Factorial_result{long_long_integer} 42m25 42r45 44r24
+39i17 Counter{long_long_integer} 41r37
+41i21 I{long_long_integer} 42r64
+47i17 Num_1{integer} 51m22 52r44 53r63
+48i17 Num_2{long_long_integer} 52m17 54r69 55r69
 
