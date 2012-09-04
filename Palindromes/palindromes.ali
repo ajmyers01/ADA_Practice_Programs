@@ -1,0 +1,76 @@
+V "GNAT Lib v4.6"
+M P W=b
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U palindromes%b		palindromes.adb		84965d00 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+W ada.strings.maps.constants%s  a-stmaco.ads	a-stmaco.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strfix.ads		20101008130255 d07c346e
+D a-strmap.ads		20090409150019 9cb836fb
+D a-stmaco.ads		20090409150019 cef4434b
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20090409150019 f77d8799
+D i-cstrea.ads		20100622165701 1bd72c32
+D palindromes.adb	20120904014153 a273dff1
+D system.ads		20120503162406 2d1a1afa
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 18|12r6 12r19 12r47 13r5 33r17 33r61
+X 9 a-string.ads
+16K13*Strings 35e16 18|12r23 12r51 33r21 33r65
+X 10 a-strfix.ads
+18K21*Fixed 251e22 18|12w59 33r29
+126U14*Translate 18|33s35
+X 11 a-strmap.ads
+38K21*Maps 412e21 18|12r31 33r73
+108A9*Character_Mapping(character)
+X 12 a-stmaco.ads
+38K26*Constants 916e31 18|12w36 33r78
+55a4*Lower_Case_Map{11|108A9} 18|33r88
+X 14 a-textio.ads
+49K13*Text_IO 472e16 18|12w10 13r9
+250U14*Get_Line 18|32s11
+251s7 Item{string} 18|32r21
+252i7 Last{natural} 18|32r46
+264U14*Put_Line 18|31s5 36s7 38s13
+X 18 palindromes.adb
+14U11*Palindromes 14b11 41l5 41t16
+15V18 Is_Palindrome{boolean} 15b18 15>33 22s32 24l7 24t20 35s14
+15s33 Entered_String{string} 17r20 19r23 19r39 19r64 19r80 22r47 22r63 22r91
+26i17 Max_Length{positive} 27r47
+27A17 Custom_String{string}<integer> 28r23
+28a5 Entered_String{27A17} 32m29 33m45 35r29
+29i17 Count{natural} 32m54 35r50
+
