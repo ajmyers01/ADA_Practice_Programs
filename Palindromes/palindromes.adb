@@ -31,8 +31,9 @@ procedure Palindromes is
     Put_Line ("Enter a String to check if it is a palindrome");
  	  Get_Line (Item => Entered_String,  Last => Count);
  		Ada.Strings.Fixed.Translate(Entered_String, Ada.Strings.Maps.Constants.Lower_Case_Map);
+		Put_Line(Entered_String);
 
-	  if Is_Palindrome (Entered_String (1 .. Count)) then
+    if Is_Palindrome (Entered_String (1 .. Count)) then
       Put_Line ("This String is a palindrome");
 	  else
 	    Put_Line ("This String is not a palindrome");
