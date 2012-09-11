@@ -1,0 +1,88 @@
+V "GNAT Lib v4.6"
+M P W=b
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnvnnnvnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnn
+
+U two_dimensional_array%b  two_dimensional_array.adb  004a0db6 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20090409150019 343c83dd
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-flteio.ads		20070406091342 e18a47a0
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-numeri.ads		20080324174807 bb51c45a
+D a-nudira.ads		20100622172941 2fef2912
+D a-nudira.adb		20100622172941 e57ce22b
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-tiflio.ads		20090409150019 56fbda09
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20090409150019 f77d8799
+D i-cstrea.ads		20100622165701 1bd72c32
+D system.ads		20120503162406 2d1a1afa
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-imguns.ads		20090409150019 9ff43cf7
+D s-parame.ads		20091130110856 9c5d83fa
+D s-rannum.ads		20100623054052 5eb33f0a
+D s-rannum.adb		20100623062126 67756f39
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-valuns.ads		20090409150019 10a8ed3b
+D s-wchcon.ads		20090417130712 bfeb2e3d
+D two_dimensional_array.adb  20120911125930 f64296d0
+X 1 ada.ads
+16K9*Ada 19e8 40|10r6 10r19 10r49 11r5 11r18 15r37
+X 6 a-flteio.ads
+20K13*Float_Text_IO[14|45] 40|10w53 11r22
+X 8 a-numeri.ads
+16K13*Numerics 32e17 40|10r23 15r41
+X 9 a-nudira.ads
+44k22*Discrete_Random 73e33 40|10w32 15r50
+48R9 Generator 40|17r14[15]
+50V13 Random{40|14I8} 40|19s37[15]
+X 10 a-nudira.adb
+51V16 Random[27|74]{40|14I8} 28|394b13[40|15]
+X 13 a-textio.ads
+49K13*Text_IO 472e16 40|10w10 11r9
+167U14*New_Line 40|27s5
+243U14*Put 40|25s7
+X 16 interfac.ads
+57M9*Unsigned_32
+60M9*Unsigned_64
+X 27 s-rannum.ads
+66V13*Random{16|57M9} 28|223i21
+67V13*Random{16|60M9} 28|223i21
+X 40 two_dimensional_array.adb
+13U11*two_dimensional_array 13b11 29l5 29t26
+14I8 Random_Number_Range<short_short_integer> 15r67 18r41 25r12
+15K11 Find_Random_Values[9|44] 16r7
+17r3 Rand_Gen{9|48R9[15]} 19r44
+18a3 Two_D_Array(14I8) 23r12 24r14 25r39
+22l1 Outer_Loop 28l12 28e22
+23i7 I{integer} 25r52
+24i9 J{integer} 25r55
+
