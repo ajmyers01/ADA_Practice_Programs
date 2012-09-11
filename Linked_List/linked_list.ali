@@ -1,0 +1,85 @@
+V "GNAT Lib v4.6"
+M P AB W=b
+P SS ZX
+R nnnvnnnnnnnnnnnnnnnnnnnnvvnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U linked_list%b		linked_list.adb		9a5b1522 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.io%s		g-io.adb		g-io.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-flteio.ads		20070406091342 e18a47a0
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-tiflio.ads		20090409150019 56fbda09
+D a-unccon.ads		20070406091342 f9eb8f06
+D gnat.ads		20050905075125 fd2ad2f1
+D g-io.ads		20050905080700 9f0d3ab2
+D interfac.ads		20090409150019 f77d8799
+D i-cstrea.ads		20100622165701 1bd72c32
+D linked_list.adb	20120911020730 dcb19de4
+D system.ads		20120503162406 2d1a1afa
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-imgrea.ads		20090409150019 c7a851e2
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 16|6r15 6r34 7r15 7r34 17r22 55r7 62r7 65r5
+X 5 a-flteio.ads
+20K13*Float_Text_IO[10|45] 16|6w19 7r19
+X 9 a-textio.ads
+49K13*Text_IO 472e16 16|6w38 7r38 17r26 55r11 62r11 65r9
+52P9*File_Type(370R9) 16|17r34
+53n23*In_File{53E9} 16|24r34
+93U14*Open 16|23s9
+94p7 File{52P9} 16|23r14
+95e7 Mode{53E9} 16|24r26
+96s7 Name{string} 16|25r26
+99U14*Close 16|47s10
+99p22 File{52P9} 16|47r16
+167U14*New_Line 16|65s17
+243U14*Put 16|62s19
+264U14*Put_Line 16|55s19
+X 10 a-tiflio.ads
+51U14*Get 16|31s25[5|20]
+52p7 File{9|52P9} 16|31r29[5|20]
+53f7 Item{float} 16|31r48[5|20]
+X 12 gnat.ads
+36K9*GNAT 39e9 16|6r6 7r6
+X 13 g-io.ads
+43K14*IO 93e12 16|6w11 7r11
+X 16 linked_list.adb
+8U11*linked_list 8b11 66l5 66t16
+9R9 Node 10r28 12c9 15e14 37r23
+10P9 Node_Ptr(9R9) 14r13 18r10 19r14 20r14
+13f7 Data{float} 55r49
+14p7 Next{10P9} 42m16 56r28
+17p10 InputFile{9|52P9} 23m22 31r37 47m24
+18p4 Head{10P9} 42r24 43m7 49r16
+19p4 New_Node{10P9} 37m7 42r7 43r15
+20p4 Scan_Ptr{10P9} 49m4 52r17 55r40 56m7 56r19 59r17
+21f4 In_Float{float} 31m56 32r17 37r29
+
