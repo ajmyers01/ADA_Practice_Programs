@@ -1,0 +1,80 @@
+V "GNAT Lib v2010"
+M P W=b
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U input%b		input.adb		04844150 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20120717125431 9c7dd3ea
+D a-charac.ads		20120717125431 506ce725
+D a-chlat1.ads		20120717125431 e9ee6d0a
+D a-except.ads		20120717125431 34786013
+D a-finali.ads		20120717125431 bfd2ca79
+D a-filico.ads		20120717125431 4ff02a40
+D a-inteio.ads		20120717125431 03bc737c
+D a-ioexce.ads		20120717125431 2504b9d2
+D a-stream.ads		20120717125431 34aca5be
+D a-string.ads		20120717125431 87b4230b
+D a-strmap.ads		20120717125431 5253a637
+D a-strunb.ads		20120717125431 210a1924
+D a-tags.ads		20120717125431 bfa07446
+D a-textio.ads		20120717125431 7065b2f2
+D a-tiinio.ads		20120717125431 949a7272
+D a-unccon.ads		20120717125431 51e09df2
+D input.adb		20121113025057 565799fa
+D interfac.ads		20120717125431 a69cad5c
+D i-cstrea.ads		20120717125431 e1e064a9
+D system.ads		20120717125432 b0a7514b
+D s-crtl.ads		20120717125431 1dba5d50
+D s-exctab.ads		20120717125431 4b7fd51d
+D s-ficobl.ads		20120717125431 c05c3205
+D s-finimp.ads		20120717125431 90fd9896
+D s-finroo.ads		20120717125431 1408f9d1
+D s-parame.ads		20120717125432 6cdeed25
+D s-secsta.ads		20120717125432 d2c357fb
+D s-soflin.ads		20120717125432 61e5c9e8
+D s-stache.ads		20120717125432 481f9e9d
+D s-stalib.ads		20120717125432 9cbc334a
+D s-stoele.ads		20120717125432 a4d57c26
+D s-stoele.adb		20120717125432 d9d7e80e
+D s-stratt.ads		20120717125432 fef7c1da
+D s-traent.ads		20120717125432 a66ef260
+D s-unstyp.ads		20120717125432 c0f9fae5
+D s-wchcon.ads		20120717125432 30c48dc1
+X 1 ada.ads
+16K9*Ada 19e8 17|1r6 1r19 1r40 2r5 2r18 2r39
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[15|48] 17|1w23 2r22
+X 10 a-string.ads
+16K13*Strings 35e16 17|1r44 2r43
+X 12 a-strunb.ads
+78K21*Unbounded 482e26 17|1w52 2r51
+X 14 a-textio.ads
+52K13*Text_IO 475e16 17|1w10 2r9
+170U14*New_Line 17|30r55 36r17 43r17 44r55 54r9 54r18 54r27 54r36 56r47 58r47
+212U14*Put 17|32r17 33r17 34r17 35r17
+246U14*Put 17|30r17 31r17 32r38 33r38 34r38 35r38 37r17 40r17 42r17 44r17
+. 56r9 57r9 58r9
+253U14*Get_Line 17|53r9
+254s7 Item{string} 17|53r18
+255i7 Last{natural} 17|53r33
+267U14*Put_Line 17|52r9 57r32
+X 15 a-tiinio.ads
+68U14*Put 17|39r17[7|18]
+X 17 input.adb
+4U11*input 4b11 64l5 64t10
+6I14 uniqueArray<short_short_integer>
+7a9 query{string} 53m26 57r41
+8i9 Last{natural} 53m41
+11U19 shift_table 11b19 49l13 49t24 61r9
+14a17 gene_letters(character) 22m17 23m17 24m17 25m17 32r21 33r21 34r21 35r21
+15A22 ARY_INT(integer)<integer> 18r32
+16i17 Last{natural}
+18a17 shift_values{15A22} 38r30 39r21
+38i21 Index{integer} 39r34
+

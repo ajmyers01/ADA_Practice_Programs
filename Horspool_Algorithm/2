@@ -1,0 +1,57 @@
+with Ada.Text_IO, Ada.Integer_Text_IO, Ada.Strings.Unbounded;
+use Ada.Text_IO, Ada.Integer_Text_IO, Ada.Strings.Unbounded;
+
+procedure input is
+
+	type uniqueArray is range 1..10;
+	query : String(1..10); 
+	Last : Natural;
+
+	-- Find the shift table
+	procedure shift_table is
+
+		--type ARY_CHAR is array (Character) of Natural;
+		gene_letters : array (1..4) of Character;	
+		type ARY_INT is array (1..4) of Integer;
+		Last : Natural;
+
+		shift_values : ARY_INT;
+		--gene_letters : ARY_CHAR;
+	begin 
+		-- assign static gene_letters elements
+		gene_letters(1) := 'A';
+		gene_letters(2) := 'C';
+		gene_letters(3) := 'G';
+		gene_letters(4) := 'T';
+		-- find the shift values
+
+		-- print the letters with according shift values 
+
+		Put("------------------------------");New_Line;
+		for Index in shift_values'range loop
+		Put(shift_values(Index),4);
+		New_Line;
+		end loop;
+		Put("------------------------------");New_Line;
+	
+		Put(gene_letters(1));
+
+		--Find query string and print to console
+
+	end shift_table;
+
+begin 
+	put_line("Please Enter Sought String ");
+	Get_Line(Item => query, Last => Last);
+	New_Line;New_Line;New_Line;New_Line;
+
+	Put("------------------------------");New_Line;
+	Put("Search Query = ");Put_Line(query);
+	Put("------------------------------");New_Line;
+
+	--Find query string and print to console
+ 
+
+
+end input;
+
